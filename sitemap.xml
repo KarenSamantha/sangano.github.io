@@ -13,58 +13,7 @@
   </url>
   
   <url>
-    <loc>https://luciandavies.github.io/post/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/post/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/post/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://luciandavies.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -82,19 +31,6 @@
   
   <url>
     <loc>https://luciandavies.github.io/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
