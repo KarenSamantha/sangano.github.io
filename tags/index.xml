@@ -6,9 +6,73 @@
     <description>Recent content in Tags on TheAbyss</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 02 Jan 2019 15:36:25 +0100</lastBuildDate>
     
 	<atom:link href="https://luciandavies.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Async/Await</title>
+      <link>https://luciandavies.github.io/tags/async-await/</link>
+      <pubDate>Wed, 02 Jan 2019 15:36:25 +0100</pubDate>
+      
+      <guid>https://luciandavies.github.io/tags/async-await/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://luciandavies.github.io/tags/development/</link>
+      <pubDate>Wed, 02 Jan 2019 15:36:25 +0100</pubDate>
+      
+      <guid>https://luciandavies.github.io/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Es6</title>
+      <link>https://luciandavies.github.io/tags/es6/</link>
+      <pubDate>Wed, 02 Jan 2019 15:36:25 +0100</pubDate>
+      
+      <guid>https://luciandavies.github.io/tags/es6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://luciandavies.github.io/tags/javascript/</link>
+      <pubDate>Wed, 02 Jan 2019 15:36:25 +0100</pubDate>
+      
+      <guid>https://luciandavies.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Koa</title>
+      <link>https://luciandavies.github.io/tags/koa/</link>
+      <pubDate>Wed, 02 Jan 2019 15:36:25 +0100</pubDate>
+      
+      <guid>https://luciandavies.github.io/tags/koa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Middlwares</title>
+      <link>https://luciandavies.github.io/tags/middlwares/</link>
+      <pubDate>Wed, 02 Jan 2019 15:36:25 +0100</pubDate>
+      
+      <guid>https://luciandavies.github.io/tags/middlwares/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tdd</title>
+      <link>https://luciandavies.github.io/tags/tdd/</link>
+      <pubDate>Wed, 02 Jan 2019 15:36:25 +0100</pubDate>
+      
+      <guid>https://luciandavies.github.io/tags/tdd/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
