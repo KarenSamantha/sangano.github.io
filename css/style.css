@@ -66,7 +66,7 @@ h1 {
 
 h2 {
 	font: italic 19px/1.3em Georgia,serif;
-	color: #1e90ff;
+	color: #666;
 }
 
 .profile #wrapper {
@@ -83,7 +83,7 @@ h2 {
 
 .profile #avatar {
 	display: inline-block;
-	width: 200px;
+	width: 200px;	
 	height: 80px;
 	margin-bottom: 20px;
 }
@@ -217,7 +217,7 @@ em, i { font-style: italic; }
 
 .home h2 {
 	font: italic 19px/1.3em Georgia,serif;
-	color: #1e90ff;
+	color: #666;
 }
 
 .post header {
@@ -239,7 +239,7 @@ em, i { font-style: italic; }
 
 .post h2.subtitle {
 	font: italic 19px/1.3em Georgia,serif;
-	color: #1e90ff;
+	color: #666;
 }
 
 .post h2.headline {
@@ -275,7 +275,7 @@ h6 {
 }
 
 p.small {
-	color: #1e90ff;
+	color: #666;
 	font-size: 14px;
 	line-height: 1.5;
 	display: block;
@@ -405,7 +405,7 @@ Post List
 	position: relative;
 	top: 1px;
 	font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
-	color: #1e90ff;
+	color: #666;
 }
 
 #post-list-footer {
@@ -569,7 +569,7 @@ h2.month {
 	position: relative;
 	top: 1px;
 	font: 300 17px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
-	color: #1e90ff;
+	color: #666;
 }
 
 #archive-list li a:hover,#archive-list li:hover .dates {
@@ -660,9 +660,9 @@ a.symbol:hover {
     color: #BCD4DA;
 }
 
-code {
-	font-family:Menlo, Monaco, Courier;
-	background-color:#EEE; font-size:14px;
-	padding: 4px;
+code { 
+	font-family:Menlo, Monaco, Courier; 
+	background-color:#EEE; font-size:14px; 
+	padding: 4px; 
 	font-weight: 600;
 }

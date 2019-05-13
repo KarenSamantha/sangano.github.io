@@ -3,19 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://luciandavies.github.io/post/porting-passwordless-to-koa/</loc>
-    <lastmod>2019-01-02T15:36:25+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://luciandavies.github.io/about/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/tags/async-await/</loc>
-    <lastmod>2019-01-02T15:36:25+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -24,56 +13,12 @@
   </url>
   
   <url>
-    <loc>https://luciandavies.github.io/tags/development/</loc>
-    <lastmod>2019-01-02T15:36:25+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/tags/es6/</loc>
-    <lastmod>2019-01-02T15:36:25+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/tags/javascript/</loc>
-    <lastmod>2019-01-02T15:36:25+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/tags/koa/</loc>
-    <lastmod>2019-01-02T15:36:25+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/tags/middlwares/</loc>
-    <lastmod>2019-01-02T15:36:25+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/post/</loc>
-    <lastmod>2019-01-02T15:36:25+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://luciandavies.github.io/tags/</loc>
-    <lastmod>2019-01-02T15:36:25+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/tags/tdd/</loc>
-    <lastmod>2019-01-02T15:36:25+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://luciandavies.github.io/</loc>
-    <lastmod>2019-01-02T15:36:25+01:00</lastmod>
     <priority>0</priority>
   </url>
   
