@@ -202,7 +202,7 @@ body {
 
 body {
   font: 16px/1 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #666;
+  color: #222;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -216,7 +216,7 @@ h1 {
 
 h2 {
   font: italic 19px/1.3em Georgia, serif;
-  color: #666;
+  color: #222;
 }
 
 .profile #profile_wrapper {
@@ -385,7 +385,7 @@ i {
 
 .home h2 {
   font: italic 19px/1.3em Georgia, serif;
-  color: #666;
+  color: #222;
 }
 
 .post header {
@@ -406,7 +406,7 @@ i {
 
 .post h2.subtitle {
   font: italic 19px/1.3em Georgia, serif;
-  color: #666;
+  color: #222;
 }
 
 .post h2.headline {
@@ -450,12 +450,12 @@ h5 {
 h6 {
   font-size: 13px;
   font-weight: bold;
-  color: #666;
+  color: #222;
   margin-bottom: 6px;
 }
 
 p.small {
-  color: #666;
+  color: #222;
   font-size: 14px;
   line-height: 1.5;
   display: block;
@@ -592,7 +592,7 @@ Post List
   position: relative;
   top: 1px;
   font: 300 17px/1.8 'Helvetica Neue', helvetica, Arial, sans-serif;
-  color: #666;
+  color: #222;
 }
 
 #post-list-footer {
@@ -755,7 +755,7 @@ h2.month {
   position: relative;
   top: 1px;
   font: 300 17px/1.7 'Helvetica Neue', helvetica, Arial, sans-serif;
-  color: #666;
+  color: #222;
 }
 
 #archive-list li a:hover,
