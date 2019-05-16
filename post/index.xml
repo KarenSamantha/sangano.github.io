@@ -17,9 +17,9 @@
       <pubDate>Wed, 08 May 2019 21:45:41 +0200</pubDate>
       
       <guid>https://luciandavies.github.io/post/tow_tldr/</guid>
-      <description>This week tip of the week is on the cool terminal application called tldr.
+      <description>This week on tip of the week is on the cool terminal application called tldr.
 What is tldr?
-This is a simple tool that allows you to look up commands in a simple way, think man pages but more accessible. Although nothing beats the sheer depth of the man pages the tldr have something even greater. It supports help pages for non-native apps. This in itself makes tldr something interesting. Without wasting time lets get down to some show and tell.</description>
+This is a simple tool that allows you to look up commands in a simple way, think man pages but more accessible. Although nothing beats the sheer depth of the inbuilt man pages, the tldr application has something even greater. It supports help pages for non-unix-native apps. This in itself makes tldr something interesting.</description>
     </item>
     
   </channel>
