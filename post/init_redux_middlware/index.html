@@ -8,7 +8,7 @@
 
 
 <meta name="generator" content="Hugo 0.55.6" />
-<title>Init redux middlware (Part 1)</title>
+<title>Init redux middleware (Part 1)</title>
 <link rel="shortcut icon" href="https://luciandavies.github.io/images/favicon.ico">
 <link rel="stylesheet" href="https://luciandavies.github.io/css/style.css">
 <link rel="stylesheet" href="https://luciandavies.github.io/css/highlight.css">
@@ -19,7 +19,7 @@
 
 
 <link rel="manifest" href="https://luciandavies.github.io/manifest.json">
-<meta property="og:title" content="Init redux middlware (Part 1)" />
+<meta property="og:title" content="Init redux middleware (Part 1)" />
 <meta property="og:description" content="Today I am going to introduce things I did not understood clearly when I first encountered them. The first is Higher Order Reducer and the second is the Redux middleware. I already know what most of you are already saying, you do not need Redux and even Dan Abramov co-author of Redux wrote an article titled you might not need redux. Sometimes I go overboard with applying tools and frameworks to my problems, The &ldquo;to a hammer everything looks like a nail&rdquo; type of habit." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://luciandavies.github.io/post/init_redux_middlware/" />
@@ -28,7 +28,7 @@
 
 
 
-<meta itemprop="name" content="Init redux middlware (Part 1)">
+<meta itemprop="name" content="Init redux middleware (Part 1)">
 <meta itemprop="description" content="Today I am going to introduce things I did not understood clearly when I first encountered them. The first is Higher Order Reducer and the second is the Redux middleware. I already know what most of you are already saying, you do not need Redux and even Dan Abramov co-author of Redux wrote an article titled you might not need redux. Sometimes I go overboard with applying tools and frameworks to my problems, The &ldquo;to a hammer everything looks like a nail&rdquo; type of habit.">
 
 
@@ -41,7 +41,7 @@
 <meta itemprop="keywords" content="" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Init redux middlware (Part 1)"/>
+<meta name="twitter:title" content="Init redux middleware (Part 1)"/>
 <meta name="twitter:description" content="Today I am going to introduce things I did not understood clearly when I first encountered them. The first is Higher Order Reducer and the second is the Redux middleware. I already know what most of you are already saying, you do not need Redux and even Dan Abramov co-author of Redux wrote an article titled you might not need redux. Sometimes I go overboard with applying tools and frameworks to my problems, The &ldquo;to a hammer everything looks like a nail&rdquo; type of habit."/>
 
 
@@ -64,7 +64,7 @@
         
 <article class="post">
     <header>
-        <h1>Init redux middlware (Part 1)</h1>
+        <h1>Init redux middleware (Part 1)</h1>
         <h2 class="subtitle"></h2>
         <h2 class="headline">
         May 28, 2019
@@ -93,7 +93,7 @@ however feel like this villain has superpowers worthy to be studied.</p>
 <h3 id="the-redux-middleware">The redux middleware</h3>
 
 <p>A loose interpretation of the documentation describe Redux middleware as functions that are composed. Any data sent to the Redux store is passed
-through this tunnel of functions and just like koa or express middlware you could either fire off a side-effect, manipulate the object before passing
+through this tunnel of functions and just like koa or express middleware you could either fire off a side-effect, manipulate the object before passing
 it along to the next and or even do nothing. Without further delay the perfect beginner example of a middleware used in the documentation is the logger</p>
 
 <pre><code class="language-js">const logger = store =&gt; next =&gt; action =&gt; {
@@ -107,7 +107,7 @@ it along to the next and or even do nothing. Without further delay the perfect b
 <p>The above is what you more or less get when you run <code>npm install redux-logger</code>. Now disregarding the first line of the above code which is basically
 the middleware template. We notice that our first line just logs out the action/object that was pass to it. At this point we have the chance to manipulate
 the object before passing it along. With a chain of middlewares this next method is called until we reach the store. In any middleware we do that by calling
-<code>next(action)</code>. On successfully apply the action to the state via the reducer. The middlwares we all start to return one after the other until whatever functions
+<code>next(action)</code>. On successfully apply the action to the state via the reducer. The middlewares we all start to return one after the other until whatever functions
 called dispatch. At this stage in every middleware, we have another chance to do something. The below can are examples of what you can do withing the scope of this
 function either before the new state is formed or after.</p>
 
@@ -176,7 +176,7 @@ fire an addToBasket event every time we send an action to the store to add somet
     </div>
     
     <section id="sharing">
-        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fluciandavies.github.io%2fpost%2finit_redux_middlware%2f - Init%20redux%20middlware%20%28Part%201%29 "><span class="icon-twitter"> tweet</span></a>
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fluciandavies.github.io%2fpost%2finit_redux_middlware%2f - Init%20redux%20middleware%20%28Part%201%29 "><span class="icon-twitter"> tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
