@@ -6,10 +6,19 @@
     <description>Recent content on TheAbyss</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 May 2019 21:45:41 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2019 08:39:25 +0200</lastBuildDate>
     
 	<atom:link href="https://luciandavies.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Init redux middlware (Part 1)</title>
+      <link>https://luciandavies.github.io/post/init_redux_middlware/</link>
+      <pubDate>Tue, 28 May 2019 08:39:25 +0200</pubDate>
+      
+      <guid>https://luciandavies.github.io/post/init_redux_middlware/</guid>
+      <description>Today I am going to introduce things I did understood clearly when I first incountered them. The first is Higher Order Reducer and the second thing is redux middleware. I already know what most of you are already saying you dont need redux and even Dan Abramov co-author of redux wrote an article titled you might not need redux. Sometimes I go overboard with applying tools and frameworks to my problems, The to a hammer everything looks like a nail type of habit.</description>
+    </item>
     
     <item>
       <title>Terminal: tldr</title>

@@ -3,13 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://luciandavies.github.io/tags/cli/</loc>
-    <lastmod>2019-05-08T21:45:41+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://luciandavies.github.io/post/init_redux_middlware/</loc>
+    <lastmod>2019-05-28T08:39:25+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://luciandavies.github.io/post/</loc>
+    <lastmod>2019-05-28T08:39:25+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://luciandavies.github.io/</loc>
+    <lastmod>2019-05-28T08:39:25+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://luciandavies.github.io/tags/cli/</loc>
     <lastmod>2019-05-08T21:45:41+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -35,12 +46,6 @@
   <url>
     <loc>https://luciandavies.github.io/post/tow_tldr/</loc>
     <lastmod>2019-05-08T21:45:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://luciandavies.github.io/</loc>
-    <lastmod>2019-05-08T21:45:41+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust on TheAbyss</title>
+    <link>https://luciandavies.github.io/tags/rust/</link>
+    <description>Recent content in Rust on TheAbyss</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 May 2019 16:20:50 +0200</lastBuildDate>
+    
+	<atom:link href="https://luciandavies.github.io/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cargo new Hello_Rust_World</title>
+      <link>https://luciandavies.github.io/post/init_rust/</link>
+      <pubDate>Thu, 09 May 2019 16:20:50 +0200</pubDate>
+      
+      <guid>https://luciandavies.github.io/post/init_rust/</guid>
+      <description>Intro
+As one of my goals this year, I put down learning a systems language. My reasons besides really stretching my programming language skills include programming a micro controller as well as building a simple plartform neutral game. Lets face it the wild wild west of javascript has been very kind to me but time to push myself into something more strongly typed.
+The Mission
+So having read the documentation, I will attempt to follow this multi-step tutorial Learn Rust With Entirely Too Many Linked Lists and see if we can learn enough to program our first board or the next minecraft</description>
+    </item>
+    
+  </channel>
+</rss>
