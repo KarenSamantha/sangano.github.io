@@ -17,7 +17,7 @@
       <pubDate>Tue, 28 May 2019 08:39:25 +0200</pubDate>
       
       <guid>https://luciandavies.github.io/post/init_redux_middlware/</guid>
-      <description>Today I am going to introduce things I did understood clearly when I first incountered them. The first is Higher Order Reducer and the second thing is redux middleware. I already know what most of you are already saying you dont need redux and even Dan Abramov co-author of redux wrote an article titled you might not need redux. Sometimes I go overboard with applying tools and frameworks to my problems, The to a hammer everything looks like a nail type of habit.</description>
+      <description>Today I am going to introduce things I did understood clearly when I first encountered them. The first is Higher Order Reducer and the second thing is the Redux middleware. I already know what most of you are already saying you do not need Redux and even Dan Abramov co-author of Redux wrote an article titled you might not need redux. Sometimes I go overboard with applying tools and frameworks to my problems, The to a hammer everything looks like a nail type of habit.</description>
     </item>
     
     <item>
