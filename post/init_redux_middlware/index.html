@@ -34,7 +34,7 @@
 
 <meta itemprop="datePublished" content="2019-05-28T08:39:25&#43;02:00" />
 <meta itemprop="dateModified" content="2019-05-28T08:39:25&#43;02:00" />
-<meta itemprop="wordCount" content="738">
+<meta itemprop="wordCount" content="735">
 
 
 
@@ -105,10 +105,10 @@ it along to the next and or even do nothing. Without further delay the perfect b
 </code></pre>
 
 <p>The above is what you more or less get when you run <code>npm install redux-logger</code>. Now disregarding the first line of the above code which is basically
-the middleware template. We notice that our first line just logs out the action/object that was pass to it. At this point we have the chance to manipulate
+the middleware template. We notice that our first line just logs out the action/object that was passed to it. At this point we have the chance to manipulate
 the object before passing it along. With a chain of middlewares this next method is called until we reach the store. In any middleware we do that by calling
 <code>next(action)</code>. On successfully apply the action to the state via the reducer. The middlewares we all start to return one after the other until whatever functions
-called dispatch. At this stage in every middleware, we have another chance to do something. The below can are examples of what you can do withing the scope of this
+called dispatch. At this stage in every middleware, we have another chance to do something. The below are examples of what you can do withing the scope of this
 function either before the new state is formed or after.</p>
 
 <ul>
@@ -143,7 +143,7 @@ function either before the new state is formed or after.</p>
 <li>return the output from calling next(action) to the previous middleware.</li>
 </ul>
 
-<p>Its important to understand here that within the function body before calling <code>next()</code> you have access to the store which you can save in a variable and access it after
+<p>It&rsquo;s important to understand that within the function before calling <code>next()</code>, you have access to the store which you can save in a variable and access it after
 calling <code>next()</code>. Things like conditionally applying actions based on the state, comparing old and new store state or even firing new action based on the new state are
 all possible and are abstracted away in a simple to test middleware. An example of a possible use-case would be AddToBasket function. This would be a customer action that
 e-commerce companies are interested in so we either inline the some analytics logic to register this event with an analytics service or we separate concerns and abstract
