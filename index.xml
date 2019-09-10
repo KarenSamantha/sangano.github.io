@@ -6,29 +6,18 @@
     <description>Recent content on TheAbyss</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 May 2019 08:39:25 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://luciandavies.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Init redux middleware (Part 1)</title>
-      <link>https://luciandavies.github.io/post/init_redux_middlware/</link>
-      <pubDate>Tue, 28 May 2019 08:39:25 +0200</pubDate>
+      <title>Intro</title>
+      <link>https://luciandavies.github.io/post/genesis_block/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://luciandavies.github.io/post/init_redux_middlware/</guid>
-      <description>Today I am going to introduce things I did not understood clearly when I first encountered them. The first is Higher Order Reducer and the second is the Redux middleware. I already know what most of you are already saying, you do not need Redux and even Dan Abramov co-author of Redux wrote an article titled you might not need redux. Sometimes I go overboard with applying tools and frameworks to my problems, The &amp;ldquo;to a hammer everything looks like a nail&amp;rdquo; type of habit.</description>
-    </item>
-    
-    <item>
-      <title>Terminal: tldr</title>
-      <link>https://luciandavies.github.io/post/tow_tldr/</link>
-      <pubDate>Wed, 08 May 2019 21:45:41 +0200</pubDate>
-      
-      <guid>https://luciandavies.github.io/post/tow_tldr/</guid>
-      <description>This week on tip of the week is on the cool terminal application called tldr.
-What is tldr?
-This is a simple tool that allows you to look up commands in a simple way, think man pages but more accessible. Although nothing beats the sheer depth of the inbuilt man pages, the tldr application has something even greater. It supports help pages for non-unix-native apps. This in itself makes tldr something interesting.</description>
+      <guid>https://luciandavies.github.io/post/genesis_block/</guid>
+      <description>Introduction Drive by thoughts and simple learnings in pursuit of more life.</description>
     </item>
     
   </channel>
