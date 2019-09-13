@@ -8,7 +8,7 @@
 		
 		<meta name="description" content="Life learner of things.. Super husband">
 		<meta name="generator" content="Hugo 0.57.2" />
-		<title>Rust adventure - Prep &middot; TheAbyss</title>
+		<title>Rust - Testing &middot; TheAbyss</title>
 		<link rel="shortcut icon" href="https://luciandavies.github.io/images/favicon.ico">
 		<link rel="stylesheet" href="https://luciandavies.github.io/css/style.css">
 		<link rel="stylesheet" href="https://luciandavies.github.io/css/highlight.css">
@@ -42,11 +42,11 @@
             <article>
                 <header>
                     <h1>
-                        Rust adventure - Prep
+                        Rust - Testing
                     </h1>
                     <h2 class="headline">
-                    Sep 6, 2019 15:54
-                    · 98 words
+                    Sep 13, 2019 15:54
+                    · 183 words
                     · 1 minute read
                       <span class="tags">
                       
@@ -57,25 +57,44 @@
                 <section id="post-body">
                     
 
-<p>I have been a rust hobbyist for a little over 3 months now and coming from javascript my learning
-process has been driven by my experience of learning by doing. To make the process a bit smoother
-I will apply the test driven development approach and setup my environmnet to reduce the time
-validate builds.</p>
+<h2 id="the-basics-of-testing-in-rust">The basics of testing in rust</h2>
 
-<h4 id="the-tools">The tools</h4>
+<p>I once read somewhere that code without tests is bad code. Although testing is a big part of code development we seem to
+learn it last so I am gonna flip that and start my rusty adventure with first learning how to test my code snippets. After
+going over the rust book once just to get a feel my study routine will start on chapter 11.</p>
+
+<p>Topic <img src="https://doc.rust-lang.org/book/ch11-01-writing-tests.html" alt="11.1" /> describes the basic tools used in testing code. All in all they are 3 primary macros and 1 attribute and return.</p>
 
 <ul>
-<li>Neovim</li>
-<li>Vimtest</li>
-<li>Vimux</li>
+<li>assert!</li>
+<li>assert_eq!</li>
+<li>assert_ne!</li>
+<li>#[should_panic]</li>
+<li><code>-&gt; Result&lt;(), String&gt;</code></li>
 </ul>
 
-<p>The above tools will run an test I have in the files whenever I save the file or trigger the function
-using the mapped keys.</p>
+<p>This chapter also describes ways to extend some of the above with a special message on failure so that those who follow you
+can have your insights into what went wrong.</p>
 
-<p>You would have to zoom in but below is how it looks like.</p>
+<h4 id="simple-assert">Simple assert</h4>
 
-<p><img src="/img/vimtest.png" alt="Snapshot of workspace" /></p>
+<pre><code>pub fn greeting(name: &amp;str) -&gt; String {
+    format!(&quot;Hello {}!&quot;, name)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn greeting_contains_name() {
+        let result = greeting(&quot;Carol&quot;);
+        assert!(result.contains(&quot;Carol&quot;));
+    }
+}
+</code></pre>
+
+<p>To really drum these tools into my head future chapter I will tackle will have one of each of these tests.</p>
 
                 </section>
             </article>
