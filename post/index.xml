@@ -18,7 +18,7 @@
       
       <guid>https://luciandavies.github.io/post/rust_adenture_prep/</guid>
       <description>I have been a rust hobbyist for a little over 3 months now and coming from javascript my learning process has been driven by my experience of learning by doing. To make the process a bit smoother I will apply the test driven development approach and setup my environmnet to reduce the time validate builds.
-The tools  Neovim Vimtest Vimux  The above tools will run an test I have in the files whenever I save the file or trigger the function using the mapped keys</description>
+The tools  Neovim Vimtest Vimux  The above tools will run an test I have in the files whenever I save the file or trigger the function using the mapped keys.</description>
     </item>
     
     <item>
