@@ -8,7 +8,7 @@
 		
 		<meta name="description" content="Life learner of things.. Super husband">
 		<meta name="generator" content="Hugo 0.58.3" />
-		<title>Rust adventure - Prep &middot; TheAbyss</title>
+		<title>Rust - Embedded &middot; TheAbyss</title>
 		<link rel="shortcut icon" href="https://luciandavies.github.io/images/favicon.ico">
 		<link rel="stylesheet" href="https://luciandavies.github.io/css/style.css">
 		<link rel="stylesheet" href="https://luciandavies.github.io/css/highlight.css">
@@ -42,12 +42,12 @@
             <article>
                 <header>
                     <h1>
-                        Rust adventure - Prep
+                        Rust - Embedded
                     </h1>
                     <h2 class="headline">
-                    Sep 6, 2019 15:54
-                    · 98 words
-                    · 1 minute read
+                    Oct 6, 2019 15:54
+                    · 265 words
+                    · 2 minute read
                       <span class="tags">
                       
                       </span>
@@ -57,25 +57,29 @@
                 <section id="post-body">
                     
 
-<p>I have been a rust hobbyist for a little over 3 months now and coming from javascript my learning
-process has been driven by my experience of learning by doing. To make the process a bit smoother
-I will apply the test driven development approach and setup my environmnet to reduce the time
-validate builds.</p>
+<h2 id="the-real-reason-i-got-into-rust">The real reason I got into rust</h2>
 
-<h4 id="the-tools">The tools</h4>
+<p>So system level languages have always seemed a bit out of my grasp. The opportunity to use it and my willingness to learn
+and the learning curve of something as verbose as C or C++ would be the main hurdles I encountered.
+Having made javascript my home and the frontend frameworks the torture chambers under it. I feel I have
+gathered enough of the technical knowhow and discpline to add a system language to my belt of skills.</p>
 
-<ul>
-<li>Neovim</li>
-<li>Vimtest</li>
-<li>Vimux</li>
-</ul>
+<p>The previous rust posts gave everyone a glimpse of how I learn in a test driven environment. So the first thing I
+wanted to do was setup and understand my debugging and testing tools.</p>
 
-<p>The above tools will run an test I have in the files whenever I save the file or trigger the function
-using the mapped keys.</p>
+<p>So this is going to be an introduction to what I am going to be using on this adventure of showing my new found
+rust super powers physically in the embedded realm.</p>
 
-<p>You would have to zoom in but below is how it looks like.</p>
+<p>Up and center we have openOCD. The description of this tool is <code>Free and Open On-Chip Debugging, In-System Programming and Boundary-Scan Testing</code>
+I am only begging to grasp what it does but by fiddling with it all weekend it seems to be the software bridge between
+the ST-LINK and my computer.</p>
 
-<p><img src="/img/vimtest.png" alt="Snapshot of workspace" /></p>
+<p>Next ST-LINK. simple usb looking like device that allows you to connect a microcontroller of the stm variety to a laptop.</p>
+
+<p>Then followed by arm-none-eabi-gdb. The debug software that will allow us to run and inspect our rust code</p>
+
+<p>In the following post I will describe how we combine all the above tools to understand the rust code running on
+a bluepill device.</p>
 
                 </section>
             </article>

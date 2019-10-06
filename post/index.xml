@@ -6,10 +6,19 @@
     <description>Recent content in Posts on TheAbyss</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Sep 2019 15:54:33 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 06 Oct 2019 15:54:33 +0200</lastBuildDate>
     
 	<atom:link href="https://luciandavies.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rust - Embedded</title>
+      <link>https://luciandavies.github.io/post/rust_fast_forward/</link>
+      <pubDate>Sun, 06 Oct 2019 15:54:33 +0200</pubDate>
+      
+      <guid>https://luciandavies.github.io/post/rust_fast_forward/</guid>
+      <description>The real reason I got into rust So system level languages have always seemed a bit out of my grasp. The opportunity to use it and my willingness to learn and the learning curve of something as verbose as C or C++ would be the main hurdles I encountered. Having made javascript my home and the frontend frameworks the torture chambers under it. I feel I have gathered enough of the technical knowhow and discpline to add a system language to my belt of skills.</description>
+    </item>
     
     <item>
       <title>Rust - Testing</title>

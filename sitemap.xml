@@ -4,16 +4,21 @@
   
   <url>
     <loc>https://luciandavies.github.io/post/</loc>
-    <lastmod>2019-09-13T15:54:33+02:00</lastmod>
+    <lastmod>2019-10-06T15:54:33+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://luciandavies.github.io/post/testing_in_rust/</loc>
-    <lastmod>2019-09-13T15:54:33+02:00</lastmod>
+    <loc>https://luciandavies.github.io/post/rust_fast_forward/</loc>
+    <lastmod>2019-10-06T15:54:33+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://luciandavies.github.io/</loc>
+    <lastmod>2019-10-06T15:54:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luciandavies.github.io/post/testing_in_rust/</loc>
     <lastmod>2019-09-13T15:54:33+02:00</lastmod>
   </url>
   
