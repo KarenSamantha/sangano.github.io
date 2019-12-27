@@ -1,50 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on TheAbyss</title>
-    <link>https://luciandavies.github.io/post/</link>
-    <description>Recent content in Posts on TheAbyss</description>
+    <title>Posts on Hugo Fresh Theme</title>
+    <link>http://something-fresh.org/post/</link>
+    <description>Recent content in Posts on Hugo Fresh Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Oct 2019 15:54:33 +0200</lastBuildDate>
     
-	<atom:link href="https://luciandavies.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://something-fresh.org/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rust - Embedded</title>
-      <link>https://luciandavies.github.io/post/rust_fast_forward/</link>
+      <link>http://something-fresh.org/post/rust_fast_forward/</link>
       <pubDate>Sun, 06 Oct 2019 15:54:33 +0200</pubDate>
       
-      <guid>https://luciandavies.github.io/post/rust_fast_forward/</guid>
+      <guid>http://something-fresh.org/post/rust_fast_forward/</guid>
       <description>The real reason I got into rust So system level languages have always seemed a bit out of my grasp. The opportunity to use it and my willingness to learn and the learning curve of something as verbose as C or C++ would be the main hurdles I encountered. Having made javascript my home and the frontend frameworks the torture chambers under it. I feel I have gathered enough of the technical knowhow and discpline to add a system language to my belt of skills.</description>
     </item>
     
     <item>
       <title>Rust - Testing</title>
-      <link>https://luciandavies.github.io/post/testing_in_rust/</link>
+      <link>http://something-fresh.org/post/testing_in_rust/</link>
       <pubDate>Fri, 13 Sep 2019 15:54:33 +0200</pubDate>
       
-      <guid>https://luciandavies.github.io/post/testing_in_rust/</guid>
+      <guid>http://something-fresh.org/post/testing_in_rust/</guid>
       <description>The basics of testing in rust I once read somewhere that code without tests is bad code. Although testing is a big part of code development we seem to learn it last so I am gonna flip that and start my rusty adventure with first learning how to test my code snippets. After going over the rust book once just to get a feel my study routine will start on chapter 11.</description>
     </item>
     
     <item>
       <title>Rust adventure - Prep</title>
-      <link>https://luciandavies.github.io/post/rust_adenture_prep/</link>
+      <link>http://something-fresh.org/post/rust_adenture_prep/</link>
       <pubDate>Fri, 06 Sep 2019 15:54:33 +0200</pubDate>
       
-      <guid>https://luciandavies.github.io/post/rust_adenture_prep/</guid>
+      <guid>http://something-fresh.org/post/rust_adenture_prep/</guid>
       <description>I have been a rust hobbyist for a little over 3 months now and coming from javascript my learning process has been driven by my experience of learning by doing. To make the process a bit smoother I will apply the test driven development approach and setup my environmnet to reduce the time validate builds.
 The tools  Neovim Vimtest Vimux  The above tools will run an test I have in the files whenever I save the file or trigger the function using the mapped keys.</description>
     </item>
     
     <item>
       <title>Intro</title>
-      <link>https://luciandavies.github.io/post/genesis_block/</link>
+      <link>http://something-fresh.org/post/genesis_block/</link>
       <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://luciandavies.github.io/post/genesis_block/</guid>
+      <guid>http://something-fresh.org/post/genesis_block/</guid>
       <description>Introduction Drive by thoughts and simple learnings in pursuit of more life.</description>
     </item>
     

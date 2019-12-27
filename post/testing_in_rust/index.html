@@ -6,15 +6,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		
-		<meta name="description" content="Life learner of things.. Super husband">
-		<meta name="generator" content="Hugo 0.58.3" />
-		<title>Rust - Testing &middot; TheAbyss</title>
-		<link rel="shortcut icon" href="https://luciandavies.github.io/images/favicon.ico">
-		<link rel="stylesheet" href="https://luciandavies.github.io/css/style.css">
-		<link rel="stylesheet" href="https://luciandavies.github.io/css/highlight.css">
+		
+		<meta name="generator" content="Hugo 0.62.0" />
+		<title>Rust - Testing &middot; Hugo Fresh Theme</title>
+		<link rel="shortcut icon" href="http://something-fresh.org/images/favicon.ico">
+		<link rel="stylesheet" href="http://something-fresh.org/css/style.css">
+		<link rel="stylesheet" href="http://something-fresh.org/css/highlight.css">
 
 		
-		<link rel="stylesheet" href="https://luciandavies.github.io/css/monosocialiconsfont.css">
+		<link rel="stylesheet" href="http://something-fresh.org/css/monosocialiconsfont.css">
 		
 
 		
@@ -26,11 +26,11 @@
        <nav class="main-nav">
 	
 	
-		<a href='https://luciandavies.github.io/'> <span class="arrow">←</span>Home</a>
+		<a href='http://something-fresh.org/'> <span class="arrow">←</span>Home</a>
 	
-	<a href='https://luciandavies.github.io/posts'>Archive</a>
-	<a href='https://luciandavies.github.io/tags'>Tags</a>
-	<a href='https://luciandavies.github.io/about'>About</a>
+	<a href='http://something-fresh.org/posts'>Archive</a>
+	<a href='http://something-fresh.org/tags'>Tags</a>
+	<a href='http://something-fresh.org/about'>About</a>
 
 	
 
@@ -55,16 +55,11 @@
                 </header>
                 
                 <section id="post-body">
-                    
-
-<h2 id="the-basics-of-testing-in-rust">The basics of testing in rust</h2>
-
+                    <h2 id="the-basics-of-testing-in-rust">The basics of testing in rust</h2>
 <p>I once read somewhere that code without tests is bad code. Although testing is a big part of code development we seem to
 learn it last so I am gonna flip that and start my rusty adventure with first learning how to test my code snippets. After
 going over the rust book once just to get a feel my study routine will start on chapter 11.</p>
-
 <p>Topic <a href="https://doc.rust-lang.org/book/ch11-01-writing-tests.html">11.1</a> describes the basic tools used in testing code. All in all they are 3 primary macros and 1 attribute and return.</p>
-
 <ul>
 <li>assert!</li>
 <li>assert_eq!</li>
@@ -72,12 +67,9 @@ going over the rust book once just to get a feel my study routine will start on 
 <li>#[should_panic]</li>
 <li><code>-&gt; Result&lt;(), String&gt;</code></li>
 </ul>
-
 <p>This chapter also describes ways to extend some of the above with a special message on failure so that those who follow you
 can have your insights into what went wrong.</p>
-
 <h4 id="simple-assert">Simple assert</h4>
-
 <pre><code>pub fn greeting(name: &amp;str) -&gt; String {
     format!(&quot;Hello {}!&quot;, name)
 }
@@ -92,9 +84,7 @@ mod tests {
         assert!(result.contains(&quot;Carol&quot;));
     }
 }
-</code></pre>
-
-<p>To really drum these tools into my head future chapter I will tackle will have one of each of these tests.</p>
+</code></pre><p>To really drum these tools into my head future chapter I will tackle will have one of each of these tests.</p>
 
                 </section>
             </article>
@@ -107,28 +97,6 @@ mod tests {
 
             <footer id="footer">
     
-        <div id="social">
-
-	
-	
-    
-    <a class="symbol" href="https://www.github.com/LucianDavies">
-        roundedgithubalt
-    </a>
-    
-    <a class="symbol" href="https://www.linkedin.com/in/tldkhatai">
-        roundedlinkedin
-    </a>
-    
-    <a class="symbol" href="https://stackoverflow.com/users/story/6152106">
-        roundedstackoverflow
-    </a>
-    
-
-
-</div>
-
-    
     <p class="small">
     
        © Copyright 2019 <i class="fa fa-heart" aria-hidden="true"></i> 
@@ -138,24 +106,13 @@ mod tests {
 
         </section>
 
-        <script src="https://luciandavies.github.io/js/jquery-3.3.1.min.js"></script>
-<script src="https://luciandavies.github.io/js/main.js"></script>
-<script src="https://luciandavies.github.io/js/highlight.min.js"></script>
+        <script src="http://something-fresh.org/js/jquery-3.3.1.min.js"></script>
+<script src="http://something-fresh.org/js/main.js"></script>
+<script src="http://something-fresh.org/js/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
 
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-112444641-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
     </body>
