@@ -4,37 +4,6 @@
   
   <url>
     <loc>http://something-fresh.org/</loc>
-    <lastmod>2019-10-06T15:54:33+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://something-fresh.org/post/</loc>
-    <lastmod>2019-10-06T15:54:33+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://something-fresh.org/post/rust_fast_forward/</loc>
-    <lastmod>2019-10-06T15:54:33+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://something-fresh.org/post/testing_in_rust/</loc>
-    <lastmod>2019-09-13T15:54:33+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://something-fresh.org/post/rust_adenture_prep/</loc>
-    <lastmod>2019-09-06T15:54:33+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://something-fresh.org/post/genesis_block/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://something-fresh.org/about/</loc>
-    <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
 </urlset>
